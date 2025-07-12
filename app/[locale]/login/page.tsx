@@ -126,8 +126,7 @@ export default async function Login({
       email,
       password,
       options: {
-        // USE IF YOU WANT TO SEND EMAIL VERIFICATION, ALSO CHANGE TOML FILE
-        // emailRedirectTo: `${origin}/auth/callback`
+        emailRedirectTo: 'https://chatbot-ui-lilac-gamma-78.vercel.app/auth/callback'
       }
     })
 
